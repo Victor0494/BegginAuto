@@ -1,0 +1,21 @@
+## YAML Template 
+
+default: -p pretty -p upf -p sem_headless 
+
+
+#formatos
+pretty: --format pretty
+for_ci: --format progress 
+html: --format html --out=results/report.html
+
+#não mostrar pagina do navagador
+com_headless: HEADLESS=com_headless
+sem_headless: HEADLESS=sem_headless
+
+
+#ambientes
+homolog: ENVIROMENT_TYPE=homolog
+upf: ENVIROMENT_TYPE=upf
+sit: ENVIROMENT_TYPE=sit
+uat: ENVIROMENT_TYPE=uat
+pro: ENVIROMENT_TYPE=pro

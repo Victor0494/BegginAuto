@@ -1,0 +1,7 @@
+url_home: 'https://login.microsoftonline.com/'
+
+
+#não é muito utilizado, 
+#somente se quiser fazer login por default ou qualquer outra coisa por defaul
+#email: 'victor.martins_EST@compasso.com.br'
+#senha: 'C0nnect123'
